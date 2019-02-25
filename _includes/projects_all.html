@@ -1,0 +1,139 @@
+<h2>Featured Projects</h2>
+
+<p class="f4 mb-4 text-gray">These are some of my coolest projects.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+    <!-- For each of the projects in config -->
+    {% for config_name in site.projects.featured %}
+      <!-- Search through all my public repos -->
+      {% for repository in site.github.public_repositories %}
+        <!-- Get the username/reponame form -->
+        {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+  
+        <!-- If it's the right one, display it -->
+        {% if user_repo == config_name %}
+          <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+            {% include repo-card.html %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+<h3>Hackathon</h3>
+<p class="f4 mb-4 text-gray">I'm a huge fan of hackathons. Here are some of my past projects:</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.hackathon %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h3>Fun</h3>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.fun %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h3>Community</h3>
+<p class="f4 mb-4 text-gray">I've also created a few projects for the community.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.community %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h3>Data Visualization</h3>
+<p class="f4 mb-4 text-gray">A couple experiments with data analytics/visualization.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.datavis %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h3>School</h3>
+<p class="f4 mb-4 text-gray">School-related or academic projects.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.school %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<h3>Open Source Contributions</h3>
+<p class="f4 mb-4 text-gray">I occasionally contribute to open-source projects like these.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  <!-- For each of the projects in config -->
+  {% for config_name in site.projects.opensource %}
+    <!-- Search through all my public repos -->
+    {% for repository in site.github.public_repositories %}
+      <!-- Get the username/reponame form -->
+      {% assign user_repo = repository.owner.login | append: '/' | append: repository.name %}
+
+      <!-- If it's the right one, display it -->
+      {% if user_repo == config_name %}
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

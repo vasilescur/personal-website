@@ -7,6 +7,48 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+projects:
+  featured:
+    - vasilescur/techolympics-website
+    - vasilescur/pfl
+    - vasilescur/DecSci-Group-9
+    - vasilescur/Noun.js
+    - vasilescur/Time
+    - vasilescur/LyricLearner
+
+  hackathon:
+    - vasilescur/LyricLearner
+    - vasilescur/Occurren
+    - vasilescur/FocusFriend
+    - vasilescur/Inspire
+
+  fun:
+    - vasilescur/mAh-Battery
+    - vasilescur/TreeLevel
+    - vasilescur/Reddit-Daily-Programmer
+    - vasilescur/vscode-Better-MIPS
+    - vasilescur/Processing
+    - vasilescur/GE-Intern-C-Obfuscation-Challenge
+    - vasilescur/Java-Rendering-Engine
+    - vasilescur/GUI-Framework
+
+  community:
+    - vasilescur/project-purple
+    - vasilescur/LovelandShowcase
+    - vasilescur/music-in-schools
+
+  datavis:
+    - vasilescur/Time
+    - vasilescur/Polyinstrumental-Cacophony
+  
+  school:
+    - vasilescur/Computer
+    - vasilescur/WOTO-Time
+    - vasilescur/ola
+
+  opensource:
+    - vasilescur/sdk
+
 defaults:
   -
     scope:
@@ -14,14 +56,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png

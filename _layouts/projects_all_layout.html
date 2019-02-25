@@ -9,24 +9,8 @@
     </div>
 
     <div class="my-6">
-      {% include resume.html %}
+      {% include projects_all.html %}
     </div>
-
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
-
-    {% if site.topics %}
-      <div class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
   </div>
 {% else %}
   <div class="d-md-flex {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -42,17 +26,11 @@
           </div>
         {% endunless %}
 
-        {% include resume.html %}
+        <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
+        <h1 class="f00-light lh-condensed">Projects</h1>
+          <br/>
+        {% include projects_all.html %}
 
-        {% include projects.html %}
-
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
-
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
       </div>
     </div>
   </div>
