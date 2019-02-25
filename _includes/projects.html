@@ -1,7 +1,7 @@
 <h2>Featured Projects</h2>
 
 <p class="f4 mb-4 text-gray">These are some of my coolest projects.</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<div class="d-sm-flex flex-wrap gutter-condensed">
   <!-- For each of the projects in config -->
   {% for config_name in site.projects.featured %}
     <!-- Search through all my public repos -->
@@ -19,6 +19,6 @@
   {% endfor %}
 </div>
 
-<div>
-  <a href="projects">See more</a>
+<div class="mb-4">
+  <a class="btn custom-button" href="projects">See more &nbsp;{% octicon chevron-right height:12 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}</a>
 </div>

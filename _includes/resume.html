@@ -1,5 +1,11 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Resume</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Description goes here</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  This is some text.
-</div>
+<h2>Education</h2>
+
+{% for item in site.resume.education %}
+  {% include resume-item.html %}
+{% endfor %}
+
+<h2>Experience</h2>
+
+{% for item in site.resume.experience %}
+  {% include resume-item.html %}
+{% endfor %}

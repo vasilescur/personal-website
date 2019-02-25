@@ -1,0 +1,34 @@
+<div class="item border border-gray-light rounded-1 bg-white p-3">
+    <div class="header">
+        <div class="title">
+            <span class="organization">{{ item.organization }}</span>
+            -
+            <span class="position">
+                {{ item.position }}
+            </span>
+        </div>
+
+        <div class="subtitle">
+            <span class="date">{{ item.date }}</span>,
+            <span class="location">{{ item.location }}</span>
+        </div>
+    </div>
+
+    <div class="description">
+        {% if item.description.text %}
+            <div class="text">
+                {{ item.description.text }}
+            </div>
+        {% endif %}
+
+        {% if item.description.points %}
+            <ul class="items">
+                {% for point in item.description.points %}
+                    <li class="point">
+                        {{ point }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>

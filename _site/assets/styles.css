@@ -3,3 +3,14 @@
 body { font-family: 'Rubik', sans-serif; }
 
 .github-component { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
+
+.custom-button { font-weight: normal; padding-left: 18px !important; padding-right: 12px !important; }
+
+.item { margin-top: 10px; margin-bottom: 10px; }
+.item .header { margin-bottom: 10px; }
+.item .header .title { color: #272727; font-size: 16px; }
+.item .header .title .organization { font-weight: bold; }
+.item .header .subtitle { color: #535353; }
+.item .header .subtitle .date { color: #303030; }
+.item .description .text { margin-bottom: 10px; }
+.item .description .items { padding-left: 20px; }

@@ -7,14 +7,72 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+
+resume:
+  education:
+    - organization: Duke University
+      position: Computer Science
+      date: Class of 2022
+      location: Durham, NC
+
+      description:
+        text: Computer Science major with a certificate in Innovation & Entrepreneurship
+        points:
+          - 4.0 GPA
+          - Taken Data Structures and Algorithms, Computer Architecture, Intro to Data Science, Technology Commercialization
+          - Member of DUU DevOps committee and Duke Marching Band
+
+    - organization: Loveland High School
+      position: ""
+      date: Class of 2018
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - Points
+          - Go
+          - Here
+          - Mmmkay
+
+  experience:
+    - organization: GE Aviation
+      position: Digital Technology Intern (Cybersecurity - Advanced Detection Solutions)
+      date: Summer 2018
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - More
+          - Points
+          - About
+          - GE 
+          - Here
+
+    - organization: INTERalliance of Greater Cincinnati
+      position: Internal Systems Manager
+      date: 2017-2018
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - Did
+          - Some
+          - TechOlympics Stuff
+
+
 projects:
   featured:
     - vasilescur/techolympics-website
     - vasilescur/pfl
-    - vasilescur/DecSci-Group-9
-    - vasilescur/Noun.js
-    - vasilescur/Time
-    - vasilescur/LyricLearner
+    - vasilescur/Computer
 
   hackathon:
     - vasilescur/LyricLearner
@@ -27,10 +85,12 @@ projects:
     - vasilescur/TreeLevel
     - vasilescur/Reddit-Daily-Programmer
     - vasilescur/vscode-Better-MIPS
+    - vasilescur/Noun.js
     - vasilescur/Processing
     - vasilescur/GE-Intern-C-Obfuscation-Challenge
     - vasilescur/Java-Rendering-Engine
     - vasilescur/GUI-Framework
+    - vasilescur/BF-Interpreter
 
   community:
     - vasilescur/project-purple
@@ -43,16 +103,9 @@ projects:
   
   school:
     - vasilescur/Computer
+    - vasilescur/DecSci-Group-9
     - vasilescur/WOTO-Time
     - vasilescur/ola
 
   opensource:
     - vasilescur/sdk
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
