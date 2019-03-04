@@ -37,10 +37,21 @@ resume:
 
       description:
         points:
-          - Points
-          - Go
-          - Here
-          - Mmmkay
+          - 4.44 GPA, Top 1% of class out of 350
+          - AP Calculus BC, AP Computer Science A
+          - Math Team, school winner of Ameircan Math Competition 10 and 12
+
+    - organization: University of Cincinnati
+      position: ""
+      date: Summer and Fall 2017
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - College Physics I and Lab course, dual enrollment
+          - DITLE three-week intensive program - computer fundamentals, application development, 
+            database and networking concepts. Served as TA for other teams and members. Built 
+            an idea-sharing website (backend and frontend) as capstone project.
 
   experience:
     - organization: GE Aviation
@@ -50,11 +61,40 @@ resume:
 
       description:
         points:
-          - More
-          - Points
-          - About
-          - GE 
-          - Here
+          - Worked on an agile development team supporting cybersecurity tools that 
+            protect GE Aviation’s $26 billion annual revenue
+          - Delivered productivity enhancements for GE’s main security alert console, 
+            reducing time to triage and resolve security threats
+          - Led proof-of-concept to develop machine learning capabilities in identifying 
+            malicious emails from 3-4 million emails daily
+          - Led evaluation of low-code solution to enhance endpoint security solution 
+            protecting 45,000+ company workstations.
+          - Implemented static application security testing (SAST) and addressed code 
+            vulnerabilities for security tools.
+          - Developed data analytics to help security analysts triage tens of thousands 
+            of alerts annually.
+
+    - organization: Project Purple
+      position: Lead Programmer
+      date: April 2017
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - Presented at Consumer Electronics Show in Las Vegas, National winner 
+            of Young Innovators to Watch scholarship
+          - Winner of the RevolutionUC hackathon from over 40 college teams. Project 
+            uses Unity, C#, and the Oculus Rift.
+
+    - organization: Illumen Media (digital marketing startup)
+      position: Full Stack Web Developer
+      date: November 2017 – May 2018
+      location: Cincinnati, OH
+
+      description:
+        points:
+          - Developed all-in-one solution for accountants to manage complex tax rerturn 
+            document workflows including knowledge-based-authentication.
 
     - organization: INTERalliance of Greater Cincinnati
       position: Internal Systems Manager
@@ -63,10 +103,10 @@ resume:
 
       description:
         points:
-          - Did
-          - Some
-          - TechOlympics Stuff
-
+          - Built website for TechOlympics, the nation’s largest high school tech 
+            conference (techolympics.org). 
+          - Responsible for all IT requirements - websites, communications, accounts, 
+            and business logic
 
 projects:
   featured:
@@ -82,6 +122,7 @@ projects:
 
   fun:
     - vasilescur/mAh-Battery
+    - vasilescur/Thermostat
     - vasilescur/TreeLevel
     - vasilescur/Reddit-Daily-Programmer
     - vasilescur/vscode-Better-MIPS
