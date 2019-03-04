@@ -139,7 +139,6 @@ projects:
     - vasilescur/music-in-schools
 
   datavis:
-    - vasilescur/Time
     - vasilescur/Polyinstrumental-Cacophony
   
   school:
