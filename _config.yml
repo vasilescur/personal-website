@@ -111,8 +111,8 @@ resume:
 projects:
   featured:
     - vasilescur/techolympics-website
+    - vasilescur/dcc
     - vasilescur/pfl
-    - vasilescur/Computer
 
   hackathon:
     - vasilescur/LyricLearner
@@ -121,16 +121,16 @@ projects:
     - vasilescur/Inspire
 
   fun:
+    - vasilescur/dcc
     - vasilescur/mAh-Battery
     - vasilescur/Thermostat
-    - vasilescur/Reddit-Daily-Programmer
-    - vasilescur/vscode-Better-MIPS
     - vasilescur/Noun.js
+    - vasilescur/vscode-Better-MIPS
+    - vasilescur/Java-Rendering-Engine
     - vasilescur/Processing
     - vasilescur/GE-Intern-C-Obfuscation-Challenge
-    - vasilescur/Java-Rendering-Engine
     - vasilescur/GUI-Framework
-    - vasilescur/BF-Interpreter
+    - vasilescur/Reddit-Daily-Programmer
 
   community:
     - vasilescur/project-purple
