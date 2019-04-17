@@ -15,6 +15,14 @@ body { font-family: 'Rubik', sans-serif; }
 .item .description .text { margin-bottom: 10px; }
 .item .description .items { padding-left: 20px; }
 
+#big-masthead { width: 100%; margin-top: 10px; margin-bottom: 10px; padding-top: 50px; padding-bottom: 50px; text-align: center; }
+
+.col-6 { display: inline; }
+
+#buttons-spacer { width: 30px; margin-left: 5px; margin-right: 5px; }
+
+a.link-button { padding-top: 10px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; border: 1px solid #008cff; color: black; border-radius: 5px; font-size: 18px; }
+
 /* --- Footer --- */
 footer .footer-container { width: 100%; padding-top: 20px; padding-bottom: 20px; }
 footer .contents { margin: 0 auto; text-align: center; font-size: 12px; color: #444444; }
