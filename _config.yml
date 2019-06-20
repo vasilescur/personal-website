@@ -54,6 +54,24 @@ resume:
             an idea-sharing website (backend and frontend) as capstone project.
 
   experience:
+  
+    - organization: GE Aviation
+      position: Digital Technology Intern (Supply Chain)
+      date: Summer 2019
+      location: Cincinnati, OH
+      
+      description:
+        points:
+          - Created a web dashboard to analyze and monitor the accuracy of a new machine learning 
+            system that automatically identifies defects in 3D CT scans of additively manufactured 
+            engine parts such as high-pressure turbine blades and LEAP engine fuel nozzles.
+
+          - Used R and Shiny to perform and present statistical analysis and calculations to determine 
+            the accuracy and precision of each version of the automated system compared to human inspectors.
+
+          - Designed and implemented a virtual reality user interface for viewing and examining 3D scans 
+            of engine parts. 
+  
     - organization: GE Aviation
       position: Digital Technology Intern (Cybersecurity - Advanced Detection Solutions)
       date: Summer 2018
