@@ -1,6 +1,8 @@
 layout: sidebar
 style: light
 
+destination: /var/www/raduvasilescu.com/html
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
