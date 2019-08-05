@@ -64,13 +64,13 @@ resume:
       
       description:
         points:
-		  - Worked on a machine learning system for industrial inspection, saving over $125k/yr per minute of labor cost avoidance.
-		  - Designed and implemented a scalable and maintainable high-performance distributed system architecture for load-balancing high-volume DICOM/DICONDE Volumetric-CT scan data among scanners, inspection machines, archives, and other systems. This system led to improved stability and efficiency for an industrial inspection ecosystem supporting thousands of parts weekly in the Turbine Airfoils Value Stream.
-		  - Rapidly designed and implemented a C# desktop application for managing and tagging scan analysis results for ML model training, resulting in an increasingly large training dataset and improved model accuracy.
-		  - Led migration to GitHub of turbine airfoils inspection software dev team, and created robust documentation for related tools and ecosystem, facilitating increased productivity, flexibility, and maintainability of software products.
-		  - Worked directly with an internal customer, often travelling on-location to better understand the customer's needs, leading to a software deployment across several GE shops.
-		  - Created a Virtual Reality proof-of-concept interface for inspecting volumetric CT scans of additively manufactured turbine blades.
-		  - Designed and implemented high-performance solutions for evaluating model efficiency using TIBCO Spotfire and R, improving an existing system by delivering powerful visualizations and reports.
+          - Worked on a machine learning system for industrial inspection, saving over $125k/yr per minute of labor cost avoidance.
+          - Designed and implemented a scalable and maintainable high-performance distributed system architecture for load-balancing high-volume DICOM/DICONDE Volumetric-CT scan data among scanners, inspection machines, archives, and other systems. This system led to improved stability and efficiency for an industrial inspection ecosystem supporting thousands of parts weekly in the Turbine Airfoils Value Stream.
+          - Rapidly designed and implemented a C# desktop application for managing and tagging scan analysis results for ML model training, resulting in an increasingly large training dataset and improved model accuracy.
+          - Led migration to GitHub of turbine airfoils inspection software dev team, and created robust documentation for related tools and ecosystem, facilitating increased productivity, flexibility, and maintainability of software products.
+          - Worked directly with an internal customer, often travelling on-location to better understand the customer's needs, leading to a software deployment across several GE shops.
+          - Created a Virtual Reality proof-of-concept interface for inspecting volumetric CT scans of additively manufactured turbine blades.
+          - Designed and implemented high-performance solutions for evaluating model efficiency using TIBCO Spotfire and R, improving an existing system by delivering powerful visualizations and reports.
   
     - organization: GE Aviation
       position: Digital Technology Intern (Cybersecurity - Advanced Detection Solutions)
