@@ -79,18 +79,13 @@ resume:
 
       description:
         points:
-          - Worked on an agile development team supporting cybersecurity tools that 
-            protect GE Aviation’s $26 billion annual revenue
-          - Delivered productivity enhancements for GE’s main security alert console, 
-            reducing time to triage and resolve security threats
-          - Led proof-of-concept to develop machine learning capabilities in identifying 
-            malicious emails from 3-4 million emails daily
-          - Led evaluation of low-code solution to enhance endpoint security solution 
-            protecting 45,000+ company workstations.
-          - Implemented static application security testing (SAST) and addressed code 
-            vulnerabilities for security tools.
-          - Developed data analytics to help security analysts triage tens of thousands 
-            of alerts annually.
+          - Worked on an agile development team supporting cybersecurity tools that protect GE Aviation’s $26 billion in annual revenue.
+          - Led proof-of-concept to develop machine learning capabilities in identifying malicious emails from 3-4 million emails daily.
+          - Delivered productivity enhancements for GE Aviation’s main security alert console, speeding time to triage and resolve potential security threats.
+          - Implemented static application security testing (SAST) and addressed code vulnerabilities for security tools.
+          - Led evaluation of low-code-no-code solution to speed enhancements of endpoint security solution protecting 45,000+ company laptops, workstations, and shopfloor machines.
+          - Developed data analytics using Elasticsearch and Kibana to help security analysts triage tens of thousands of alerts annually.
+          - Supported and improved a distributed Elasticsearch (ELK Stack) cluster responsible for managing hundreds of daily security alerts, leading to improved performance and stability.
 
     - organization: Project Purple
       position: Lead Programmer
@@ -111,8 +106,9 @@ resume:
 
       description:
         points:
-          - Developed all-in-one solution for accountants to manage complex tax rerturn 
-            document workflows including knowledge-based-authentication.
+          - Created a fully-featured, large, complex application intended for accountants to manage the workflows of their clients as they step through verifying several documents (built with Django/Python).
+          - Worked directly with clients to gather requirements and iterate during the development process, leading to successful delivery and deployment of several website for local Cincinnati businesses.
+          - Created and maintained client websites utilizing WordPress, HTML, CSS, PHP, SQL, JavaScript, etc.
 
     - organization: INTERalliance of Greater Cincinnati
       position: Internal Systems Manager
@@ -120,11 +116,30 @@ resume:
       location: Cincinnati, OH
 
       description:
+        text: >
+          Created the website for TechOlympics 2018, the nation’s largest high school tech conference. Created 30+ pages of the website and implemented complex registration workflows supporting over 550 student attendees.
+          https://techolympics.org
+          As a result, the website reached a 25% conversion rate, quickly and very effectively accomplishing its purpose. At very little cost to the INTERalliance, this year's TechOlympics website was immensely successful and received praise and recognition from several of the attending IT professionals, as well as countless students, faculty members, and volunteers. The website is flexible, scalable, and easy to update, and therefore is being re-used.
+          Responsible for all INTERalliance IT requirements. In charge of INTERalliance website, internal and external communications, accounts, and internal software.
+
+    - organization: Campus Enterprises LLC
+      position: Backend Developer (BlueTech)
+      date: Jan 2019 - Apr 2019
+      location: Durham, NC
+
+      description:
         points:
-          - Built website for TechOlympics, the nation’s largest high school tech 
-            conference (techolympics.org). 
-          - Responsible for all IT requirements - websites, communications, accounts, 
-            and business logic
+          - Worked closely with a team of developers to create a web application leveraging psychometric analysis to determine financial loan eligibility for individuals in Nigeria, leading to a successful delivery of software to an external customer.
+          - Leveraged Django/Python to create a RESTful API constituting the backend of the application, and contributed/maintained the React-based frontend.
+          
+    - organization: Duke University Union (DUU)
+      position: Web Designer
+      date: Jan 2019 - Mar 2019
+      location: Durham, NC
+      
+      description:
+        points:
+          - Member of the Duke University Union DevOps committee, designed, created, and maintains the DUU website (duuke.org), providing information about Duke's largest event programming organization.
 
 projects:
   featured:
