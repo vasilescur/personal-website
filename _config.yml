@@ -57,6 +57,17 @@ resume:
 
   experience:
   
+    - organization: Realtime Robotics
+      position: Robotics Engineering Intern
+      date: Summer 2020
+      location: Boston, MA
+      
+      description:
+        points:
+          - Worked on a development team to help create the future of hardware-accelerated robotics motion planning.
+          - Designed and implemented a cutting-edge synchronized runtime system for highly optimized multi-robot choreographies.
+          - Created debugging tools using ROS, RViz, and C++ to visualize and monitor multi-robot optimization tasks.
+  
     - organization: GE Aviation
       position: Digital Technology Intern (Supply Chain)
       date: Summer 2019
@@ -143,7 +154,7 @@ resume:
 
 projects:
   featured:
-    - vasilescur/techolympics-website
+    - vasilescur/ambush
     - vasilescur/dcc
     - vasilescur/pfl
 
@@ -174,6 +185,7 @@ projects:
     - vasilescur/Polyinstrumental-Cacophony
   
   school:
+    - vasilescur/ambush
     - vasilescur/Computer
     - vasilescur/DecSci-Group-9
     - vasilescur/ola
