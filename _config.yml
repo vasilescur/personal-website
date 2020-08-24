@@ -1,7 +1,7 @@
 layout: sidebar
 style: light
 
-destination: /var/www/raduvasilescu.com/html
+destination: /var/www/html
 
 plugins:
   - jekyll-octicons
@@ -28,7 +28,7 @@ resume:
       description:
         text: Computer Science major with a certificate in Innovation & Entrepreneurship
         points:
-          - 4.0 GPA
+          - Co-founder of Duke University Neural Engineering Undergraduate Union and Journal Club
           - Taken Data Structures and Algorithms, Computer Architecture, Intro to Data Science, Technology Commercialization
           - Member of DUU DevOps committee and Duke Marching Band
 
