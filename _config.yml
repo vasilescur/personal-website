@@ -26,7 +26,7 @@ resume:
       location: Durham, NC
 
       description:
-        text: Computer Science major with a certificate in Innovation & Entrepreneurship
+        text: Computer Science major, Computational Biology and Bioinformatics minor, Innovation & Entrepreneurship certificate
         points:
           - Co-founder of Duke University Neural Engineering Undergraduate Union and Journal Club
           - Taken Data Structures and Algorithms, Computer Architecture, Intro to Data Science, Technology Commercialization
@@ -75,7 +75,7 @@ resume:
       
       description:
         points:
-          - Worked on a machine learning system for industrial inspection, saving over $125k/yr per minute of labor cost avoidance.
+          - Worked on a machine learning system for industrial inspection. Each minute of labor avoided saves over $125k/yr going forward.
           - Designed and implemented a scalable and maintainable high-performance distributed system architecture for load-balancing high-volume DICOM/DICONDE Volumetric-CT scan data among scanners, inspection machines, archives, and other systems. This system led to improved stability and efficiency for an industrial inspection ecosystem supporting thousands of parts weekly in the Turbine Airfoils Value Stream.
           - Rapidly designed and implemented a C# desktop application for managing and tagging scan analysis results for ML model training, resulting in an increasingly large training dataset and improved model accuracy.
           - Led migration to GitHub of turbine airfoils inspection software dev team, and created robust documentation for related tools and ecosystem, facilitating increased productivity, flexibility, and maintainability of software products.
@@ -90,7 +90,7 @@ resume:
 
       description:
         points:
-          - Worked on an agile development team supporting cybersecurity tools that protect GE Aviation’s $26 billion in annual revenue.
+          - Worked on an agile development team supporting cybersecurity tools that protect GE Aviation’s $26 billion annual revenue.
           - Led proof-of-concept to develop machine learning capabilities in identifying malicious emails from 3-4 million emails daily.
           - Delivered productivity enhancements for GE Aviation’s main security alert console, speeding time to triage and resolve potential security threats.
           - Implemented static application security testing (SAST) and addressed code vulnerabilities for security tools.
@@ -106,7 +106,7 @@ resume:
       description:
         points:
           - Presented at Consumer Electronics Show in Las Vegas, National winner 
-            of Young Innovators to Watch scholarship
+            of Young Innovators to Watch scholarship.
           - Winner of the RevolutionUC hackathon from over 40 college teams. Project 
             uses Unity, C#, and the Oculus Rift.
 
@@ -128,8 +128,7 @@ resume:
 
       description:
         points:
-          - Created the website for TechOlympics 2018, the nation’s largest high school tech conference. Created 30+ pages of the website and implemented complex registration workflows supporting over 550 student attendees.
-          - <a href="https://techolympics.org">http://techolympics.org</a>
+          - Created the website for TechOlympics 2018 (<a href="https://techolympics.org">http://techolympics.org</a>), the nation’s largest high school tech conference. Created 30+ pages of the website and implemented complex registration workflows supporting over 550 student attendees.
           - As a result, the website reached a 25% conversion rate, quickly and very effectively accomplishing its purpose. At very little cost to the INTERalliance, this year's TechOlympics website was immensely successful and received praise and recognition from several of the attending IT professionals, as well as countless students, faculty members, and volunteers. The website is flexible, scalable, and easy to update, and therefore is being re-used.
           - Responsible for all INTERalliance IT requirements. In charge of INTERalliance website, internal and external communications, accounts, and internal software.
 
@@ -141,7 +140,7 @@ resume:
       description:
         points:
           - Worked closely with a team of developers to create a web application leveraging psychometric analysis to determine financial loan eligibility for individuals in Nigeria, leading to a successful delivery of software to an external customer.
-          - Leveraged Django/Python to create a RESTful API constituting the backend of the application, and contributed/maintained the React-based frontend.
+          - Leveraged Django/Python to create a RESTful API constituting the backend of the application, while contributing and maintaining the React-based frontend.
           
     - organization: Duke University Union (DUU)
       position: Web Designer
