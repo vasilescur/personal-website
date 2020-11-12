@@ -57,6 +57,28 @@ resume:
 
   experience:
   
+    - organization: The Audio Described Art Project
+    - position: Full-Stack Engineer, DevOps Engineer
+      date: Nov. 2020 - Present
+      location: Durham, NC
+      
+      description:
+        points: 
+          - Led a group of 3 developers to create and deploy a cross-platform mobile app, web app, 
+            and server for The Audio Described Art Project, a solution that offers geofence-triggered 
+            audio descriptions of public artwork for people who are blind or low-vision. The project 
+            was completed over the course of one semester, with a full deployment on the App Store 
+            and Google Play store coming this November.
+          - Leveraged the Google Cloud Platform to deploy a testing and production environment using 
+            a robust CI/CD pipeline and leveraging Docker, resulting in a maintainable and safe deployment 
+            workflow. Each component of the project is built with Dart and Flutter, Google's in-house 
+            solution for cross-platform mobile apps that powers several products including Google Ads.
+          - Practiced Agile and Scrum leadership skills as I served as the Product Owner and Scrum Master 
+            for the team, in addition to working as a full-stack engineer. As a result, I feel confident 
+            leading a development team through the entire software lifecycle, including ideation, research, 
+            user interviews, Agile/sprint workflow, requirements gathering, client interaction, system architecture, 
+            implementation, deployment, QA, maintenance, documentation, issue tracking, and security analysis.
+  
     - organization: Realtime Robotics
       position: Robotics Engineering Intern
       date: Summer 2020
@@ -153,9 +175,9 @@ resume:
 
 projects:
   featured:
+    - vasilescur/parse_context
     - vasilescur/ambush
     - vasilescur/dcc
-    - vasilescur/pfl
 
   hackathon:
     - vasilescur/LyricLearner
